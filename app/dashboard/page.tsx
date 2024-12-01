@@ -85,23 +85,23 @@ export default function Dashboard() {
     <main className="flex min-h-[calc(100vh_-_theme(spacing.16))] flex-1 flex-col gap-4 p-4 md:gap-8 md:p-10">
       <div className="max-w-6xl w-full mx-auto grid gap-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          <Card className="bg-gradient-to-r from-[#7928CA] to-[#FF0080] text-white">
+          {/* <Card className="bg-gradient-to-r from-[#7928CA] to-[#FF0080] text-white">
             <CardHeader className="flex flex-col items-start gap-2">
               <div className="text-sm font-medium">
                 Total Earnings - Mainnet
               </div>
               <div className="text-3xl font-bold">Rs. {totalEarningsInINR}</div>
             </CardHeader>
-          </Card>
+          </Card> */}
 
-          <Card className="bg-gradient-to-r from-[#0072F5] to-[#00DAC6] text-white">
+          {/* <Card className="bg-gradient-to-r from-[#0072F5] to-[#00DAC6] text-white">
             <CardHeader className="flex flex-col items-start gap-2">
               <div className="text-sm font-medium">
                 Total Earnings - Testnet
               </div>
               <div className="text-3xl font-bold">Rs. {totalEarningsInINR}</div>
             </CardHeader>
-          </Card>
+          </Card> */}
           <Card className="bg-gradient-to-r from-[#FF4B2B] to-[#FF416C] text-white">
             <CardHeader className="flex flex-col items-start gap-2">
               <div className="text-sm font-medium">Total Transactions</div>
